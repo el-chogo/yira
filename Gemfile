@@ -63,3 +63,7 @@ group :test do
 end
 
 gem "devise", "~> 4.9"
+
+gem "devise-two-factor",
+    git: "https://github.com/el-chogo/devise-two-factor.git",
+    branch: "el-chogo/rails-8.0-support"
