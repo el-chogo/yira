@@ -67,3 +67,7 @@ gem "devise", "~> 4.9"
 gem "devise-two-factor",
     git: "https://github.com/el-chogo/devise-two-factor.git",
     branch: "el-chogo/rails-8.0-support"
+
+gem "pry", "~> 0.14.2", :groups => [:development, :test]
+
+gem "rqrcode", "~> 2.2"
