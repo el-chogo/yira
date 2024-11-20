@@ -71,3 +71,5 @@ gem "devise-two-factor",
 gem "pry", "~> 0.14.2", :groups => [:development, :test]
 
 gem "rqrcode", "~> 2.2"
+
+gem "rack-attack", "~> 6.7"
